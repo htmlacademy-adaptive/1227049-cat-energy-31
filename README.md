@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Павел Покаместов](https://up.htmlacademy.ru/adaptive/31/user/1227049).
-* Наставник: `Анна Лисененкова`(https://htmlacademy.ru/profile/ankhena).
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
