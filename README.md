@@ -2,7 +2,7 @@
 
 * Студент: [Павел Покаместов](https://up.htmlacademy.ru/adaptive/31/user/1227049).
 * Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
-
+* Сайт: [Cat-energy](https://pavel-pokamestov.github.io/1227049-cat-energy-31/)
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами для работы над проектом — `source/`.**
