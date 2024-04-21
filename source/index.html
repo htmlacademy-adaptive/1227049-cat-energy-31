@@ -23,8 +23,15 @@
 
         <!-- логотипы -->
         <a class="page-header__logo logo" href="./index.html">
-          <img class="logo__image" width="33" height="38" src="./images/logo/logo-mobile.svg" alt="Cat-energy">
-          <img class="logo__name logo__name--header" width="101" height="18" src="./images/logo/logo_name.svg" alt="Cat-energy">
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)" srcset="/images/logo/logo.svg">
+            <source type="image/png" media="(min-width: 768px)" srcset="/images/logo/logo-tablet.svg">
+            <img class="logo__image" width="33" height="38" src="/images/logo/logo-mob.svg" alt="Cat Energy">
+          </picture>
+          <picture>
+            <source type="image/png" media="(min-width: 768px)" srcset="/images/logo/logo-name.svg">
+            <img class="logo__name logo__name--header" width="101" height="18" src="/images/logo/logo-name.svg" alt="Cat-energy" aria-hidden="true">
+          </picture>
         </a>
 
         <!-- блок меню в мобилке -->
@@ -37,10 +44,10 @@
       <!-- меню -->
       <ul class="page-header__menu site-menu site-menu--index">
         <li class="site-menu__item">
-          <a class="site-menu__link" href="./index.html">Главная</a>
+          <a class="site-menu__link" href="/index.html">Главная</a>
         </li>
         <li class="site-menu__item">
-          <a class="site-menu__link" href="./catalog.html">Каталог продукции</a>
+          <a class="site-menu__link" href="/catalog.html">Каталог продукции</a>
         </li>
         <li class="site-menu__item">
           <a class="site-menu__link" href="#">Подбор программы</a>
@@ -58,9 +65,9 @@
         <h1 class="promo__title page__title">Функциональное питание для котов</h1>
         <p class="promo__lead">Занялся собой? Займись котом!</p>
         <picture>
-          <source type="image/png" media="(min-width: 1440px)" srcset="images/index/index-can@1x.png 1x, images/index-can@2.png 2x">
-          <source type="image/png" media="(min-width: 768px)" srcset="images/index/index-can-tablet1@1x.png 1x, images/index/index-can-tablet2@2x.png 2x">
-          <img class="promo__image" width="280" height="270" src="images/index/index-can-mobile1@1x.jpg" srcset="images/index/index-can-mobile@2x.jpg 2x" alt="Упаковка с кормом вкус курицы">
+          <source type="image/png" media="(min-width: 1440px)" srcset="images/index/index-can.png 1x, images/index-can@2.png 2x">
+          <source type="image/png" media="(min-width: 768px)" srcset="images/index/index-can-tablet1.png 1x, images/index/index-can-tablet2@2x.png 2x">
+          <img class="promo__image" width="280" height="270" src="images/index/index-can-mobile1.jpg" srcset="images/index/index-can-mobile@2x.jpg 2x" alt="Упаковка с кормом вкус курицы">
         </picture>
         <p class="promo__button button" href="#">Подобрать программу</p>
       </div>
@@ -132,7 +139,7 @@
           <div class="example__images">
             <picture>
               <source type="image/png" media="(min-width: 768px)" srcset="images/index/cat-tablet-before.png 1x, images/image/cat-tablet-before@2x.png 2x">
-              <img class="example__image example__image--before" width="280" height="256" src="images/index/cat-mobile-before.png" srcset="./images/index/cat-mobile-before@2x.png" alt="Толстый кот до питания кормом">
+              <img class="example__image example__image--before" width="280" height="256" src="images/index/cat-mobile-before.png" srcset="images/index/cat-mobile-before@2x.png" alt="Толстый кот до питания кормом">
             </picture>
 
             <picture>
