@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <title>Cat-energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple-icon-180x180.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
@@ -19,8 +23,15 @@
 
         <!-- логотипы -->
         <a class="page-header__logo logo" href="./index.html">
-          <img class="logo__image" width="33" height="38" src="./images/logo/logo-mobile.svg" alt="Cat-energy">
-          <img class="logo__name logo__name--header" width="101" height="18" src="./images/logo/logo_name.svg" alt="Cat-energy">
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)" srcset="/images/logo/logo.svg">
+            <source type="image/png" media="(min-width: 768px)" srcset="/images/logo/logo-tablet.svg">
+            <img class="logo__image" width="33" height="38" src="/images/logo/logo-mob.svg" alt="Cat Energy">
+          </picture>
+          <picture>
+            <source type="image/png" media="(min-width: 768px)" srcset="/images/logo/logo-name.svg">
+            <img class="logo__name logo__name--header" width="101" height="18" src="/images/logo/logo-name.svg" alt="Cat-energy" aria-hidden="true">
+          </picture>
         </a>
 
         <!-- блок меню в мобилке -->
@@ -33,10 +44,10 @@
       <!-- меню -->
       <ul class="page-header__menu site-menu site-menu--index">
         <li class="site-menu__item">
-          <a class="site-menu__link" href="./index.html">Главная</a>
+          <a class="site-menu__link" href="/index.html">Главная</a>
         </li>
         <li class="site-menu__item">
-          <a class="site-menu__link" href="./catalog.html">Каталог продукции</a>
+          <a class="site-menu__link" href="/catalog.html">Каталог продукции</a>
         </li>
         <li class="site-menu__item">
           <a class="site-menu__link" href="#">Подбор программы</a>
@@ -53,8 +64,12 @@
       <div class="promo__wrapper">
         <h1 class="promo__title page__title">Функциональное питание для котов</h1>
         <p class="promo__lead">Занялся собой? Займись котом!</p>
-        <img class="promo__image" width="280" height="270" src="./images/main/chicken_mobile.png" alt="Упаковка с кормом вкус курицы">
-        <a class="promo__button button" href="#">Подобрать программу</a>
+        <picture>
+          <source type="image/png" media="(min-width: 1440px)" srcset="images/index/index-can.png 1x, images/index-can@2.png 2x">
+          <source type="image/png" media="(min-width: 768px)" srcset="images/index/index-can-tablet1.png 1x, images/index/index-can-tablet2@2x.png 2x">
+          <img class="promo__image" width="280" height="270" src="images/index/index-can-mobile1.jpg" srcset="images/index/index-can-mobile@2x.jpg 2x" alt="Упаковка с кормом вкус курицы">
+        </picture>
+        <p class="promo__button button" href="#">Подобрать программу</p>
       </div>
     </section>
 
@@ -122,7 +137,15 @@
 
           <!-- фото кота -->
           <div class="example__images">
-            <p>Фото толстый - тонкий кот</p>
+            <picture>
+              <source type="image/png" media="(min-width: 768px)" srcset="images/index/cat-tablet-before.png 1x, images/image/cat-tablet-before@2x.png 2x">
+              <img class="example__image example__image--before" width="280" height="256" src="images/index/cat-mobile-before.png" srcset="images/index/cat-mobile-before@2x.png" alt="Толстый кот до питания кормом">
+            </picture>
+
+            <picture>
+              <source type="image/png" media="(min-width: 768px)" srcset="images/index/cat-tablet-after.png 1x, images/image/cat-tablet-aftere@2x.png 2x">
+              <img class="example__image example__image--after example__image--active" width="280" height="256" src="images/index/cat-mobile-after.png" srcset="images/index/cat-mobile-after@2x.png" alt="Худой кот после питания кормом">
+            </picture>
           </div>
 
           <!-- Переключатели фотографий -->
