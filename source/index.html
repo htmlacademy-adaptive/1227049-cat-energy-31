@@ -64,7 +64,13 @@
       <div class="promo__wrapper">
         <h1 class="promo__title page__title">Функциональное питание для котов</h1>
         <p class="promo__lead">Занялся собой? Займись котом!</p>
-        <img class="promo__image" width="280" height="270" src="./images/main/chicken_mobile.png" alt="Упаковка с кормом вкус курицы">
+
+        <picture>
+          <source type="image/png" media="(min-width: 1320px)" srcset="/images/index/index-can.png 1x, /images/index/index-can@2x.png 2x">
+          <source type="image/png" media="(min-width: 768px)" srcset="/images/index/index-can-tablet.png 1x, /images/index/index-can-tablet@2x.png 2x">
+          <img class="promo__image" width="280" height="270" src="/images/index/index-can.png" srcset="/images/index/index-can@2x.png" alt="Упаковка с кормом вкус курицы">
+        </picture>
+
         <a class="promo__button button" href="#">Подобрать программу</a>
       </div>
     </section>
@@ -133,6 +139,7 @@
 
           <!-- фото кота -->
           <div class="example__images">
+
             <picture>
               <source type="image/png" media="(min-width: 768px)" srcset="images/index/cat-tablet-before.png 1x, images/image/cat-tablet-before@2x.png 2x">
               <img class="example__image example__image--before" width="280" height="256" src="images/index/cat-mobile-before.png" srcset="images/index/cat-mobile-before@2x.png" alt="Толстый кот до питания кормом">
