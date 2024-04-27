@@ -1,1 +1,22 @@
-//
+.catalogs {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: $special_dark-grey;
+}
+
+.catalogs__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  color: $basic-black;
+  text-decoration: none;
+}
+
+.catalogs__link {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: $basic-black;
+  text-decoration: none;
+}
