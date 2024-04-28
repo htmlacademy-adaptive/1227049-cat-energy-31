@@ -1,1 +1,10 @@
-//
+.products {
+  font-family: "Oswals", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic-black;
+}
+
+.products__list {
+  list-style-type: none;
+}
